@@ -1,0 +1,299 @@
+body,
+html {
+  width: 100% !important;
+  margin: 0;
+  color: #777;
+  font-weight: 400;
+  transition: ease-in-out;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(211, 211, 211);
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgb(5, 33, 169);
+  border-radius: 20px;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    padding-bottom: 15px;
+  }
+
+  .navMenuFonSize {
+    font-size: 15px !important;
+  }
+
+  .navbar .dropdown-menu {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .homeBackground {
+    height: 700px;
+  }
+
+  #brands .col {
+    height: 100px;
+    padding-top: 40px !important;
+  }
+
+  #brands img {
+    width: 65px;
+  }
+
+  #about {
+    padding-top: 75px !important;
+  }
+
+  .about-us,
+  .why-us {
+    padding: 25px 15px 25px 15px !important;
+  }
+
+  #services p {
+    height: 40px;
+  }
+
+  .prod {
+    width: 150px !important;
+  }
+
+  .card-body {
+    padding: 7px !important;
+  }
+
+  .card-title {
+    font-size: 15px;
+  }
+
+  .featureIcon {
+    font-size: 70px;
+    padding: 12px;
+  }
+
+  .ant-form-item-label {
+    text-align: start !important;
+  }
+
+  #contact p {
+    font-size: smaller;
+  }
+
+  #contact .overlay {
+    padding-bottom: 0 !important;
+  }
+
+  .contactFormCol {
+    margin-bottom: 20px;
+  }
+
+  #footer {
+    padding: 5px 0 !important;
+  }
+
+  .copyright {
+    font-size: 14px !important;
+  }
+
+  /* SanaPaneel */
+  .s-about {
+    margin-top: 0 !important;
+  }
+
+  .s-about-inner {
+    padding: 40px 0;
+  }
+
+  .s-about-inner video {
+    width: 325px;
+  }
+
+  .s-types img {
+    width: 100% !important;
+  }
+
+  #contact .left-col {
+    text-align: center;
+  }
+
+  .s-about-title {
+    display: block !important;
+    margin: 10px 0;
+  }
+
+  .specifications .overlay {
+    padding: 15px;
+    background-color: #ffffffbf;
+    border-radius: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navMenuFonSize {
+    font-size: 14px !important;
+  }
+
+  .homeBackground {
+    height: 500px;
+    background-size: 700% 100%;
+  }
+
+  .homeText h1 {
+    color: white;
+    font-size: 38px;
+  }
+
+  .homeText h5 {
+    font-size: 18px;
+  }
+
+  .brand-logo {
+    width: 50px !important;
+  }
+
+  .brandName {
+    font-size: 16px !important;
+    letter-spacing: 2px;
+  }
+
+  #brands .col {
+    height: 75px;
+    padding-top: 20px !important;
+  }
+
+  #brands img {
+    width: 40px;
+  }
+
+  .about-img {
+    height: 300px;
+    background-size: contain;
+  }
+
+  .prod {
+    width: 100px !important;
+  }
+
+  #about {
+    padding-top: 50px !important;
+  }
+
+  .about-text p {
+    font-size: 12px;
+  }
+
+  .whychoseuslist {
+    padding: 0 !important;
+    line-height: 28px;
+    font-size: 13px;
+  }
+
+  .why-us {
+    padding: 10px 10px !important;
+  }
+
+  .checkicon {
+    margin: 0 2px;
+  }
+
+  #services p {
+    height: 50px;
+  }
+
+  .serviceIcon {
+    font-size: 60px;
+  }
+
+  #services p {
+    font-size: smaller !important;
+  }
+
+  #services li {
+    font-size: 12px;
+  }
+
+  #products img {
+    height: unset;
+  }
+
+  .card-title {
+    font-size: 13px;
+  }
+
+  .contactFormCol {
+    padding: 10px 15px !important;
+  }
+
+  #contact p {
+    font-size: 11px !important;
+  }
+
+  .ant-form-item {
+    margin-bottom: 10px !important;
+  }
+
+  .ant-form-item-label {
+    padding: 0 !important;
+  }
+
+  .ant-form-item-control {
+    margin: 0 !important;
+    text-align: end;
+  }
+
+  .copyright {
+    font-size: 9px !important;
+  }
+
+  .footerbrand {
+    width: 25px;
+  }
+
+  /* Sana Panel */
+  #about {
+    padding-top: 25px !important;
+  }
+
+  .s-about-inner {
+    padding: 25px 0;
+  }
+
+  .article-text-box .article {
+    padding: 20px;
+    padding-top: 50px;
+  }
+
+  .article p {
+    font-size: 13px;
+    width: 100% !important;
+  }
+
+  .article li {
+    font-size: 13px !important;
+  }
+
+  .article .table {
+    width: 100% !important;
+  }
+
+  .specifications .overlay {
+    padding: 15px;
+    background-color: #ffffffbf;
+    border-radius: 25px;
+  }
+
+  #s-head img {
+    width: 275px !important;
+  }
+
+  #s-head h3 {
+    font-size: 15px;
+  }
+}

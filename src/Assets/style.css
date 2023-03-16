@@ -1,0 +1,579 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+.hr {
+  border: unset;
+  background-color: #0521a9 !important;
+  border-top: 2px solid #0521a9;
+  width: 80px !important;
+  margin: 0 !important;
+  opacity: unset;
+}
+
+.brandFont {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 600 !important;
+  letter-spacing: 1px;
+}
+
+.navMenuFont {
+  font-family: "Ubuntu Condensed", sans-serif;
+  letter-spacing: 1px;
+}
+
+.h2Font {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.h2rtl {
+  font-size: 23px;
+}
+
+.h3rtl {
+  font-size: 18px;
+}
+
+.navMenuFonSize {
+  font-size: 15px !important;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #3665c8 !important;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  z-index: 100;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+.brand-logo {
+  width: 60px;
+}
+
+.navbar-collapse.show {
+  margin-top: 15px;
+}
+
+.brandName {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 0 10px;
+  vertical-align: -20%;
+}
+
+.navMenuFont {
+  margin-bottom: -5px;
+}
+
+.navbar .navbar-nav a {
+  font-size: 19px;
+  margin: 0 10px;
+  font-weight: 500;
+  color: white !important;
+}
+
+.navbar .dropdown.navMenuFonSize .dropdown-toggle {
+  font-size: 15px;
+}
+
+.navbar .dropdown .dropdown-menu a.navMenuFonSize {
+  font-size: 14px !important;
+}
+
+.navLink .nav-link {
+  padding: 0 !important;
+  padding-bottom: 5px !important;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+
+.navbar .navbar-nav a:hover {
+  color: #fffc01 !important;
+  background-color: #3665c8 !important;
+  border-color: #fffc01;
+}
+
+.navbar .dropdown-menu a {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Language Dropdown */
+.navbar .dropdown-menu {
+  background-color: #3665c8;
+  border: none !important;
+  text-align: unset;
+}
+
+.dropdown-lng {
+  left: -140% !important;
+  margin-top: 10px;
+  min-width: 9rem !important;
+  padding: 10px;
+}
+
+.lang-btn {
+  font-size: small;
+  padding: 3px 5px;
+  background-color: unset;
+  height: 35px;
+}
+
+.lang-btn:hover {
+  background-color: #3665c8;
+  color: #fffc01;
+  border-color: #fffc01;
+}
+
+.lang-icon {
+  width: 20px;
+}
+
+.dropdown-lng .dropdown-item {
+  color: white !important;
+  padding: 3px 0 !important;
+  font-size: smaller !important;
+}
+
+.dropdown-lng a div {
+  font-size: 16px;
+}
+
+.dropdown-lng a .lng-btn-div {
+  font-size: 14px;
+}
+
+.dropdown-lng .dropdown-item:hover {
+  color: #fffc01 !important;
+  background-color: rgba(226, 226, 226, 0.2) !important;
+}
+
+/* Home */
+.homeCarousel {
+  overflow: hidden;
+}
+
+.homeBackground1 {
+  height: 520px;
+  background-image: url(./img/bgs/10.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeBackground2 {
+  height: 520px;
+  background-image: url(./img/bgs/11.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeBackground3 {
+  height: 520px;
+  background-image: url(./img/bgs/05.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backgroundoverlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 16 50 / 70%);
+}
+
+.homeText {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.homeText h1 {
+  color: white;
+  font-size: 55px;
+}
+
+.homeText h5 {
+  color: white;
+  font-size: 23px;
+}
+
+/* Brands */
+#brands .col {
+  height: 120px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#brands img {
+  width: 80px;
+  transition: 0.2s;
+  margin: 0 auto !important;
+}
+
+#brands img:hover {
+  cursor: pointer;
+  width: 90px;
+}
+
+/* About */
+.h-about {
+  padding-top: 50px;
+  margin: 0 !important;
+}
+
+.about {
+  background-color: rgb(248, 248, 248);
+}
+
+.about-us,
+.why-us {
+  padding: 50px 40px 50px;
+}
+
+.why-us .col,
+.why-us ul {
+  padding: 0;
+}
+
+.about-img {
+  background-image: url(./img/bgs/13.jpeg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: center;
+}
+
+.why-us-img {
+  background-image: url(./img/bgs/12.jpeg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: center;
+}
+
+.whychoseuslist {
+  padding: 10px 10px;
+  line-height: 32px;
+}
+
+.about-text {
+  font-size: 16px;
+}
+
+.checkicon {
+  font-size: 12px;
+  color: #0521a9;
+  margin: 0 5px;
+}
+
+/* Services */
+.h-service {
+  background: rgb(117, 156, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(117, 156, 238, 1) 0%,
+    rgba(67, 112, 208, 1) 25%,
+    rgba(50, 97, 197, 1) 50%,
+    rgba(67, 112, 208, 1) 75%,
+    rgba(117, 156, 238, 1) 100%
+  );
+  color: white;
+}
+
+.h-service h4,
+.h-service h2 {
+  color: white;
+}
+
+.h-service h4 {
+  margin-top: 18px !important;
+  margin-bottom: 12px !important;
+}
+
+.h-service .hr {
+  background-color: #fffc01 !important;
+  border-color: #fffc01;
+}
+
+.h-service p {
+  font-size: 13px;
+}
+
+.h-service li {
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.serviceIcon {
+  font-size: 75px;
+  padding: 10px;
+  background-color: #fffc01;
+  border: 2px solid #fffc01;
+  border-radius: 550%;
+  color: #0521a9;
+}
+
+.h-service .overlay {
+  padding: 75px 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Products */
+.h-products {
+  background-image: url(./img/bgs/01.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.prod-overflow {
+  width: 100%;
+  height: 100%;
+  padding: 75px 0;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.h-products .card .h2Font {
+  font-size: 18px;
+}
+
+.h-products .card .prof-title-rtl {
+  font-size: 16px;
+}
+
+.h-products img {
+  height: 175px;
+}
+
+.prod-card {
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.prod-card:hover {
+  cursor: pointer !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Contact Section */
+#contact {
+  background: rgb(117, 156, 238);
+  background: linear-gradient(
+    155deg,
+    rgba(117, 156, 238, 0.9160485428370786) 0%,
+    rgba(67, 112, 208, 0.9413294417134831) 25%,
+    rgba(50, 97, 197, 0.9385204529494382) 50%,
+    rgba(67, 112, 208, 0.9272844978932584) 75%,
+    rgba(117, 156, 238, 0.9160485428370786) 100%
+  );
+  color: white !important;
+}
+
+#contact .overlay {
+  padding: 65px 0 40px 0;
+  width: 100%;
+  height: 100%;
+}
+
+#contact h6 {
+  margin-bottom: 0px !important;
+  margin-top: 20px !important;
+  font-size: 15px;
+  color: white;
+}
+
+#contact p {
+  color: rgb(235, 235, 235);
+  font-size: 15px;
+}
+
+.contactLinks {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(231, 231, 231);
+}
+
+.contactLinks:hover {
+  color: #fffc01;
+}
+
+.contactFormCol {
+  padding: 10px 30px;
+}
+
+.contact-us {
+  padding: 40px 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.contact-us .form-group {
+  font-size: 14px;
+}
+
+#contact h3,
+#contact h4 {
+  color: white;
+}
+
+/* Footer */
+#footer {
+  background: #6797ff;
+  padding: 5px 50px;
+  color: white;
+}
+
+.copyright {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.footerbrand {
+  width: 40px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 25px;
+  background: #3665c8;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-to-top:hover {
+  background: #0521a9;
+  cursor: pointer;
+}
+
+.back-to-top img {
+  width: 23px;
+}
+
+/* SANA PAnel */
+.s-hr {
+  border: unset;
+  background-color: #0521a9 !important;
+  border-top: 1px solid #0521a9;
+  width: 90px !important;
+  margin: 0 !important;
+  opacity: unset;
+}
+
+#s-head {
+  text-align: center;
+  background-image: url(./img/bgs/sana-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#s-head .s-h-overlay {
+  padding: 150px 0 120px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(1, 17, 51, 0.7);
+}
+
+#s-head .b-h-overlay {
+  padding: 150px 0 120px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#s-head .b-h-overlay h3 {
+  color: #000000;
+  font-weight: 700;
+}
+
+#s-head img {
+  width: 350px;
+}
+
+#s-head .b-h-overlay img {
+  width: 300px;
+}
+
+/* Sana About */
+.s-about {
+  margin-top: 35px;
+}
+
+.s-about-inner {
+  padding: 60px 0;
+  background-color: rgb(248, 248, 248);
+}
+
+/* sana bg-image */
+.s-bg-compo {
+  background-image: url(../Assets/img/s-bg-img.PNG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+}
+
+/* sana Article Text Box */
+.article-text-box {
+  padding-top: 50px;
+  color: black;
+  background: url(../Assets/img/body-bg.png) 100% 130px repeat-y,
+    url(../Assets/img/body-bg.png) repeat-y;
+}
+
+.article-text-box .article {
+  background-color: #ebebf0;
+  padding: 40px;
+  padding-top: 50px;
+  border-top-right-radius: 100px 50px;
+  border-top-left-radius: 100px 50px;
+  border-bottom-left-radius: 100px 50px;
+  border-bottom-right-radius: 100px 50px;
+}
+
+.s-available table th {
+  font-size: 14px;
+}
+
+.s-available table td {
+  font-size: 14px;
+}
+
+.specifications {
+  background-image: url(../Assets/img/spec.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* Sana Videos */
+.s-videos {
+  padding: 75px 0;
+}
+
+.s-videos .container .row .col {
+  height: 250px;
+}
+
+.s-types img {
+  border-radius: 25px;
+  width: 80%;
+}
+
+.s-about-logo {
+  width: 150px;
+}
+
+.s-about-title {
+  vertical-align: -70%;
+}
